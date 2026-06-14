@@ -3,7 +3,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int arr[] = {2,7,8,3,15,19,6,3,8,}; 
+    int arr[] = {2,7,8,3,15,19,6,3,8,1}; 
     int n = sizeof(arr)/sizeof(arr[0]);   
     int min = -1;// 2,7,8,8,
     int index;
