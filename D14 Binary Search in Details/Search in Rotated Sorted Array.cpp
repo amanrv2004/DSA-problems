@@ -19,7 +19,6 @@ int main(){
                 end = mid-1;
             }
         }
-        cout << "K = " << index << endl;
-
+        cout <<index << endl;
     return 0;
 }
