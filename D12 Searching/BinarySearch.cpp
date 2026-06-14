@@ -11,12 +11,10 @@ int main(){
             }  
         }
     }
-     
     int start = 0;
     int end = n-1;
     int mid ;
     int target = 5;
-
     for(int i = 0 ; i < n; i++){
         int mid = (start+end)/2;
         if(arr[mid]==target){
@@ -29,9 +27,7 @@ int main(){
         else{
             end = mid - 1;
         }
-
     }
     cout<<"Element is not in Array"<<endl;
-    
     return 0;
 }
